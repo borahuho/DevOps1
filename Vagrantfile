@@ -18,7 +18,7 @@ Vagrant.configure('2') do |config|
         end 
 		
 	# Copy from folder to notes
-        machine.vm.synced_folder "DevOps1/", "/home/vagrant/notes"
+        machine.vm.synced_folder "DevOps1/", "/home/vagrant/mission"
         machine.vm.provision "file", source: "~/.vagrant.d/insecure_private_key", destination: "$HOME/.ssh/id_rsa"
     end
 end
