@@ -1,0 +1,30 @@
+Notes for DevOps1:
+
+You are working for a company named Scooters.inc. This company want's a webserver with Apache installed.
+
+install apache2
+
+remove default apache2 landing page
+
+make directory for website in /var/www 
+
+files html in this directory (standard index.html is ok)
+
+set the right permissions
+
+create new virtual host:
+
+<VirtualHost *:80>
+    ServerName Scooters.inc 
+    DocumentRoot /var/www/Scooters.inc
+</VirtualHost>
+
+use a2ensite to enable your website 
+
+end of mission is you can see your website on 192.168.148.3
+
+############################################## 
+
+Write down all your commands
+
+Good luck.
