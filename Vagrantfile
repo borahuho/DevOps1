@@ -15,9 +15,9 @@ Vagrant.configure('2') do |config|
 
         machine.vm.provider "virtualbox" do |vb|
             vb.cpus = 1
-        endcd 
+        end 
 		
-		# Copy from folder to notes
+	# Copy from folder to notes
         machine.vm.synced_folder "DevOps1/", "/home/vagrant/notes"
         machine.vm.provision "file", source: "~/.vagrant.d/insecure_private_key", destination: "$HOME/.ssh/id_rsa"
     end
