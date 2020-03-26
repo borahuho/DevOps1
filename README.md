@@ -34,7 +34,7 @@ vagrant ssh
 Vagrant VM will be set up with 2 network adapters
 ```
 Nat : DHCP
-Localhost : 192.168.10.5
+Localhost : 192.168.10.4
 ```
 ## Vagrant commands
 Make a new VM with Vagrant
