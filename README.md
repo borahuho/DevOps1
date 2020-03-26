@@ -1,10 +1,10 @@
-**DevOps1**
+# DevOps1
 ```
 With this vagrant, you will install one Ubuntu 18.04 machine.
 This repository is intended for educational purpose only.
 ```
 
-# Prerequisites
+## Prerequisites
 ```
 This setup is the first to try with my students.
 Works on Windows 10
@@ -14,13 +14,13 @@ Software needed:
 * Virtualbox 5.0 or higher
 * Git bash for Windows
 ```
-# Installation
+## Installation
 ```
 Install Virtualbox: https://www.virtualbox.org/wiki/Downloads
 Install Git bash for Windows: https://gitforwindows.org/
 Install Vagrant for Windows: https://www.vagrantup.com/downloads.html
 ```
-# Run this Vagrant VM
+## Run this Vagrant VM
 Open Git Bash in Windows
 ```
 cd Documents
@@ -30,7 +30,7 @@ cd DevOps1
 vagrant up
 vagrant ssh
 ```
-# Vagrant commands
+## Vagrant commands
 Make a new VM with Vagrant
 ```
 vagrant up
