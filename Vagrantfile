@@ -11,7 +11,7 @@ Vagrant.configure('2') do |config|
 	# set vm name and network 
     config.vm.define :DevOps1, primary: true do |machine|
         machine.vm.host_name = "ubuntu.local"
-        machine.vm.network "private_network", ip: "192.168.148.3"
+        machine.vm.network "private_network", ip: "192.168.10.4"
 
         machine.vm.provider "virtualbox" do |vb|
             vb.cpus = 1
