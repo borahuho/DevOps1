@@ -10,10 +10,16 @@ This setup is the first to try with my students.
 Works on Windows 10
 
 Software needed:
-* Vagrant 2.2.6 or higher
 * Virtualbox 5.0 or higher
 * Git bash for Windows
+* Vagrant 2.2.6 or higher
 ```
+
+## Demo installation
+```
+Youtube: 
+```
+
 ## Installation
 ```
 Install Virtualbox: https://www.virtualbox.org/wiki/Downloads
@@ -21,7 +27,7 @@ Install Git bash for Windows: https://gitforwindows.org/
 Install Vagrant for Windows: https://www.vagrantup.com/downloads.html
 ```
 ## Run this Vagrant VM
-Open Git Bash in Windows
+Open **Git Bash** in Windows
 ```
 cd Documents
 mkdir vagrant && cd vagrant
