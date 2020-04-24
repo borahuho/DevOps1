@@ -37,9 +37,9 @@ vagrant up
 vagrant ssh
 ```
 ## Mission
-```
+
 Read your mission in ~/vagrant/mission
-```
+
 ## Network
 Vagrant VM will be set up with 2 network adapters
 ```
