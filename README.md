@@ -1,8 +1,7 @@
 # DevOps1
-```
-With this vagrant, you will install a Ubuntu 18.04 machine.
-This repository is intended for educational purpose only.
-```
+
+With this vagrant, you will install a Ubuntu 18.04 machine. This repository is intended for educational purpose only.
+
 
 ## Prerequisites
 
