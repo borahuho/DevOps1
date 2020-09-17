@@ -53,7 +53,7 @@ Pause a VM
 ```
 vagrant suspend
 ```
-Restart a paused a VM
+Restart a paused VM
 ```
 vagrant resume
 ```
